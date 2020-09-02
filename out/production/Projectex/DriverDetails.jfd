@@ -1,0 +1,65 @@
+JFDML JFormDesigner: "7.0.0.6.255" Java: "11.0.4" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {seq t {space ::158:x, comp label1:::p:223:p, space :p:137:p}, seq l {space :p:83:p, par l {seq {par t:::p {comp label6::l:::x, comp label5::l:::x, comp label4::l:::x}, space ::103:x, par l {comp label10::t:p:157:p, comp label9::t:p:157:p, comp label8::t:p:157:p}}, seq t {comp label3:::p::p, space ::165:x, comp label11:::p:157:p}, seq t {comp label2:::p:86:p, space ::171:x, comp label7:::p:157:p}}, space :p:21:p}, seq l {space :p:169:p, comp button1:::p:192:p, space ::157:x}}"
+			"$verticalGroup": "par l {seq l {space :p:23:p, comp label1:::p:26:p, space :p:24:p, par b {comp label2::b:p::p, comp label7::b:p::p}, space u:::p, par b {comp label3::b:p:22:p, comp label11::b:p::p}, space u:::p, par b {comp label4::b:p::p, comp label10::b:p::p}, space s:::p, par b {comp label5::b:p::p, comp label9::b:p::p}, space u:::p, par l {comp label6:::p::p, comp label8::l:p::p}, space :p:50:p, comp button1:::p::p, space ::73:x}}"
+		} ) {
+			name: "this"
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label1"
+				"text": "Yalla...Your Ride is on the wayyy!!! "
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label2"
+				"text": "Driver Name"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label3"
+				"text": "Phone Number"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label4"
+				"text": "Rating"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label5"
+				"text": "Estimated Fare"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label6"
+				"text": "Estimated Time of Arrival"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label7"
+				"text": "text"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label8"
+				"text": "text"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label9"
+				"text": "text"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label10"
+				"text": "text"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label11"
+				"text": "text"
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button1"
+				"text": "Redirect to status page"
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "button1ActionPerformed", true ) )
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 5 )
+			"size": new java.awt.Dimension( 520, 390 )
+		} )
+	}
+}
